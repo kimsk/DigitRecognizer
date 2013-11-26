@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitRecognizer.UI", "DigitRecognizer.UI\DigitRecognizer.UI.csproj", "{F3941B39-CDA6-4E79-A287-1C4699BDFF48}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "DigitRecognizer", "DigitRecognizer\DigitRecognizer.fsproj", "{1237C397-4200-4DFD-8432-00D2321BDF93}"
