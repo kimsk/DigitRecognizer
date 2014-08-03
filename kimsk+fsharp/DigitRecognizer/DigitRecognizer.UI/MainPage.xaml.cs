@@ -45,7 +45,7 @@ namespace DigitRecognizer.UI
             var validationSamples = Processor.stringToSamples(validationData);
 
             var results = new List<Result>();
-            foreach (var vSample in validationSamples)
+            foreach (var vSample in validationSamples.Take(200))
             {
                 var tSample = Processor.classifier(traingingSamples, vSample.Pixels);
 
